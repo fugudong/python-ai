@@ -28,23 +28,21 @@ if __name__ == '__main__':
     iris_feature, iris_target, label = loadDataSet()
     #iris_feature = iris.data
     #iris_target = iris.target
-    #print(iris.target_names)
-    print(shape(iris_feature))
-    print(shape(iris_target))
-    train_feature, test_feature, train_target, test_target = \
-    train_test_split(iris_feature, iris_target, test_size=0.2, random_state=102)
-    #print(test_target)
-    print("entropy")
-    clf = tree.DecisionTreeClassifier(criterion = 'entropy')
-    clf = clf.fit(train_feature, train_target)
-    predict = clf.predict(test_feature)
-    print(accuracy_score(predict, test_target))
-    print("gini")
-    clf = tree.DecisionTreeClassifier(criterion='gini')
-    clf = clf.fit(train_feature, train_target)
-    predict = clf.predict(test_feature)
-    print(accuracy_score(predict, test_target))
-    dot_data = tree.export_graphviz(clf, out_file=None,feature_names=iris.feature_names,\
+    accuracy = 0.0
+    i = 0
+    while i<10000:
+        train_feature, test_feature, train_target, test_target = \
+        train_test_split(iris_feature, iris_target, test_size=0.2, random_state=102)
+        #clf = tree.DecisionTreeClassifier(criterion='entropy')
+        print("gini")
+        clf = tree.DecisionTreeClassifier(criterion='gini')
+        clf = clf.fit(train_feature, train_target)
+        predict = clf.predict(test_feature)
+        accuracy += accuracy_score(predict, test_target)
+        #print(accuracy_score(predict, test_target))
+        i = i+1
+    print(accuracy/10000)
+    dot_data = tree.export_graphviz(clf, out_file=None,\
                                     class_names=label, filled=True ,rounded=True,special_characters=True)
                            #         class_names=iris.target_names, filled=True, rounded=True, special_characters=True)
     graph = graphviz.Source(dot_data)
