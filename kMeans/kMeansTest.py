@@ -3,6 +3,7 @@ import matplotlib.image as mpimg
 from sklearn.cluster import KMeans
 import numpy as np
 from skimage import io
+import pandas as pd
 
 def recreate_image(codebook, labels, w, h):
     d = codebook.shape[1]
@@ -19,14 +20,15 @@ if __name__ == '__main__':
     pixel = mpimg.imread('Iris2.jpg')
     width, height, depth = pixel.shape
     print(pixel.shape)
-    plt.subplot(2, 1, 1)
-    plt.imshow(pixel)
 
     temp = pixel.reshape((width * height, depth))
+    #print(temp)
     temp = np.array(temp, dtype=np.float64) / 255
 
     kmeans = KMeans(n_clusters=2,n_jobs=8,random_state=0).fit(temp)
     labels = kmeans.predict(temp)
+    print(labels)
+    print(kmeans.cluster_centers_)
     kmeans2 = recreate_image(kmeans.cluster_centers_, labels, width, height)
 
     kmeans = KMeans(n_clusters=3, n_jobs=8, random_state=0).fit(temp)
