@@ -76,7 +76,7 @@ def train_model(X_train, Y_train, M_train, feat_sensor_names, label_names, senso
 
     # Typically, the data is highly imbalanced, with many more negative examples;
     # To avoid a trivial classifier (one that always declares 'no'), it is important to counter-balance the pos/neg classes:
-    lr_model = LogisticRegression(class_weight='balanced');
+    lr_model = LogisticRegression(class_weight='balanced', solver='liblinear');
     lr_model.fit(X_train, y);
     #print(lr_model.coef_.shape)
     weight = lr_model.coef_;

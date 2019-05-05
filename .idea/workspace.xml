@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b5bb37e-2676-4b8d-bbb6-10ec93798e09" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ActionRecognition/ContextModel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActionRecognition/FeatureProc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActionRecognition/GeneralRecognition.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActionRecognition/LabelProc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActionRecognition/ReadUserData.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActionRecognition/VisualRealtion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spider/spider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kMeans/digitRecognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/kMeans/digitRecognition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActionRecognition/GeneralRecognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/ActionRecognition/GeneralRecognition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActionRecognition/ReadUserData.py" beforeDir="false" afterPath="$PROJECT_DIR$/ActionRecognition/ReadUserData.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ActionRecognition/ReadUserData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1775">
-              <caret line="75" column="3" selection-start-line="75" selection-start-column="3" selection-end-line="75" selection-end-column="3" />
+            <state relative-caret-position="175">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -47,10 +40,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Python/Python37/Lib/site-packages/sklearn/linear_model/logistic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="432" selection-start-line="432" selection-end-line="432" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ActionRecognition/FeatureProc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3200">
-              <caret line="130" column="22" selection-start-line="130" selection-start-column="22" selection-end-line="130" selection-end-column="22" />
+            <state relative-caret-position="150">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="26" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -59,22 +61,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ActionRecognition/ContextModel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="103" column="5" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ActionRecognition/GeneralRecognition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3275">
-              <caret line="137" column="39" selection-start-line="137" selection-start-column="26" selection-end-line="137" selection-end-column="39" />
+            <state relative-caret-position="244">
+              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -83,10 +73,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Python/Python27/Lib/site-packages/sklearn/utils/validation.py">
+        <entry file="file://$PROJECT_DIR$/ActionRecognition/ContextModel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14100">
-              <caret line="581" selection-start-line="581" selection-end-line="581" />
+            <state relative-caret-position="3050">
+              <caret line="122" column="27" selection-start-line="122" selection-start-column="27" selection-end-line="122" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -182,12 +175,12 @@
         <option value="$PROJECT_DIR$/Logistic/MultiClassess.py" />
         <option value="$PROJECT_DIR$/ActionRecognition/GenralRecog.py" />
         <option value="$PROJECT_DIR$/ActionRecognition/ContextModel.py" />
-        <option value="$PROJECT_DIR$/ActionRecognition/GeneralRecognition.py" />
         <option value="$PROJECT_DIR$/ActionRecognition/ReadUserData.py" />
+        <option value="$PROJECT_DIR$/ActionRecognition/GeneralRecognition.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-53" />
     <option name="y" value="33" />
     <option name="width" value="1936" />
@@ -199,6 +192,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,7 +209,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -434,28 +427,31 @@
       <workItem from="1556102974010" duration="7925000" />
       <workItem from="1556116222847" duration="681000" />
       <workItem from="1556121640923" duration="44000" />
+      <workItem from="1557067353344" duration="77000" />
+      <workItem from="1557067448898" duration="474000" />
+      <workItem from="1557068082536" duration="267000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82613000" />
+    <option name="totallyTimeSpent" value="83431000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3192964" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3304904" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.9109808" weight="0.43275487" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.9104478" visible="true" weight="0.43275487" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49307036" weight="0.21366595" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.08901919" side_tool="true" visible="true" weight="0.43275487" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.08955224" side_tool="true" visible="true" weight="0.43275487" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
@@ -466,7 +462,7 @@
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="R Graphics" order="5" />
       <window_info anchor="right" id="R Packages" order="6" />
-      <window_info active="true" anchor="right" id="SciView" order="7" visible="true" weight="0.15778251" />
+      <window_info anchor="right" id="SciView" order="7" visible="true" weight="0.15778251" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,7 +489,7 @@
     <SUITE FILE_PATH="coverage/python_ai$digitRecognition.coverage" NAME="digitRecognition Coverage Results" MODIFIED="1556018830993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kMeans" />
     <SUITE FILE_PATH="coverage/python_ai$VisualRealtion.coverage" NAME="VisualRealtion Coverage Results" MODIFIED="1556016341668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ActionRecognition" />
     <SUITE FILE_PATH="coverage/python_ai$ContextModel.coverage" NAME="ContextModel Coverage Results" MODIFIED="1556104158685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ActionRecognition" />
-    <SUITE FILE_PATH="coverage/python_ai$GeneralRecognition.coverage" NAME="GeneralRecognition Coverage Results" MODIFIED="1556109733456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ActionRecognition" />
+    <SUITE FILE_PATH="coverage/python_ai$GeneralRecognition.coverage" NAME="GeneralRecognition Coverage Results" MODIFIED="1557068336888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ActionRecognition" />
     <SUITE FILE_PATH="coverage/python_ai$ReadUserData.coverage" NAME="ReadUserData Coverage Results" MODIFIED="1556092957277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ActionRecognition" />
     <SUITE FILE_PATH="coverage/python_ai$FeatureProc.coverage" NAME="FeatureProc Coverage Results" MODIFIED="1556095287970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ActionRecognition" />
     <SUITE FILE_PATH="coverage/python_ai$LabelProc.coverage" NAME="LabelProc Coverage Results" MODIFIED="1556013966511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ActionRecognition" />
@@ -689,36 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ActionRecognition/ReadUserData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1775">
-          <caret line="75" column="3" selection-start-line="75" selection-start-column="3" selection-end-line="75" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ActionRecognition/FeatureProc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3200">
-          <caret line="130" column="22" selection-start-line="130" selection-start-column="22" selection-end-line="130" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ActionRecognition/GeneralRecognition.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3275">
-          <caret line="137" column="39" selection-start-line="137" selection-start-column="26" selection-end-line="137" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Python/Python27/Lib/site-packages/sklearn/utils/validation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14100">
@@ -769,10 +735,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ActionRecognition/ContextModel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="103" column="5" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="5" />
+        <state relative-caret-position="3050">
+          <caret line="122" column="27" selection-start-line="122" selection-start-column="27" selection-end-line="122" selection-end-column="27" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ActionRecognition/FeatureProc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ActionRecognition/ReadUserData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python/Python37/Lib/site-packages/sklearn/linear_model/logistic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="432" selection-start-line="432" selection-end-line="432" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ActionRecognition/GeneralRecognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
